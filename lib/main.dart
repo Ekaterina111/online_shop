@@ -18,9 +18,9 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   final List<Page> _pages = [
-    Page('Список товаров', Icons.home),
-    Page('Корзина', Icons.add_shopping_cart),
-    Page('Профиль', Icons.person_outline),
+    Page('Main', Icons.home),
+    Page('Basket', Icons.add_shopping_cart),
+    Page('Profile', Icons.person_outline),
   ];
 
   MyHomePage({Key key}) : super(key: key);
@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
        return Scaffold(
       appBar: AppBar(
-        title: Text("МАГАЗИН"),
+        title: Text("SHOP"),
       ),
       body: 
  
